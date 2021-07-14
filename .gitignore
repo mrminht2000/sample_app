@@ -32,11 +32,12 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# Ignore framgia-ci files
+# Ignore sensitive files
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
-
+/config/database.yml
 /config/credentials.yml.enc
+*/application.yml
 
 /public/packs
 /public/packs-test
