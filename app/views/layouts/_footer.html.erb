@@ -1,0 +1,21 @@
+<footer class="footer">
+  <small>
+    <%= t ".intro.i1" %>
+    <%= link_to t(".redirect.home_page"), Settings.link.home_page %>
+    <%= t ".intro.i2" %>
+    <%= link_to "Michael Hartl", Settings.link.michael_hartl %>
+  </small>
+  <nav>
+    <ul>
+      <li>
+        <%= link_to t("static_pages.about.heading"), about_path %>
+      </li>
+      <li>
+        <%= link_to t("static_pages.contact.heading"), contact_path %>
+      </li>
+      <li>
+        <%= link_to t(".redirect.rails_news"), Settings.link.rails_news %>
+      </li>
+    </ul>
+  </nav>
+</footer>
