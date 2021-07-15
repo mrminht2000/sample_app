@@ -1,0 +1,35 @@
+vi:
+  layouts:
+    application:
+      rails_title: "Hướng dẫn Ruby on Rails Sample App"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+  static_pages:
+    help:
+      heading: "Trợ giúp"
+      rails_help: 
+        title: "Tìm sự trợ giúp về hướng dẫn Ruby on Rails tại"
+        link: "trang trợ giúp hướng dẫn Rails"
+      rails_book:
+        title: "Tìm sự trợ giúp về sample app, xem thêm sách "
+        link: "Ruby on Rails Tutorial."
+        book: ""
+    home:
+      heading: "Trang chủ"
+      intro_first: "Đây là trang chủ của"
+      intro_last: "sample app"
+      link: "Ruby on Rails Tutorial"
+    about:
+      heading: "Về chúng tôi"
+      redirect:
+        home_page: "Hướng dẫn Ruby on Rails"
+        learn_enough: "Learn Enough"
+        rails_book: "cuốn sách"
+        screencast: "các video truyền hình"
+        rails_ruby: "Ruby on Rails"
+      intro_1: ""
+      intro_2: "là một phần của bộ hướng dẫn"
+      intro_3: ", bao gồm series các "
+      intro_4: "và"
+      intro_5: "nhằm hướng dẫn phát triển Web bằng"
+      intro_6: "Đây là một app ví dụ cho hướng dẫn này"
