@@ -1,14 +1,14 @@
 en:
 
+  base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
-      rails_title: "Ruby on Rails Tutorial Sample App"
       en: "English"
       vi: "Vietnamese"
   static_pages:
     help:
       heading: "Help"
-      rails_help: 
+      rails_help:
         title: "Get help on the Ruby on Rails Tutorial at the"
         link: "Rails Tutorial help page"
       rails_book:
