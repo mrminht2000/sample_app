@@ -1,13 +1,14 @@
 vi:
+
+  base_title: "Hướng dẫn Ruby on Rails Sample App"
   layouts:
     application:
-      rails_title: "Hướng dẫn Ruby on Rails Sample App"
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
   static_pages:
     help:
       heading: "Trợ giúp"
-      rails_help: 
+      rails_help:
         title: "Tìm sự trợ giúp về hướng dẫn Ruby on Rails tại"
         link: "trang trợ giúp hướng dẫn Rails"
       rails_book:
