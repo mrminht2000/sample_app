@@ -2,9 +2,17 @@ vi:
 
   base_title: "Hướng dẫn Ruby on Rails Sample App"
   layouts:
-    application:
+    header:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
+      login: "Đăng nhập"
+    footer:
+      intro:
+        i1: ""
+        i2: "bởi"
+      redirect:
+        home_page: "Hướng dẫn Ruby on Rails"
+        rails_news: "Tin tức"
   static_pages:
     help:
       heading: "Trợ giúp"
@@ -17,9 +25,11 @@ vi:
         book: ""
     home:
       heading: "Trang chủ"
+      welcome: "Chào mừng tới Sample App"
       intro_first: "Đây là trang chủ của"
       intro_last: "sample app"
       link: "Ruby on Rails Tutorial"
+      signup: "Đăng ký!"
     about:
       heading: "Về chúng tôi"
       redirect:
@@ -34,3 +44,11 @@ vi:
       intro_4: "và"
       intro_5: "nhằm hướng dẫn phát triển Web bằng"
       intro_6: "Đây là một app ví dụ cho hướng dẫn này"
+    contact:
+      heading: "Liên hệ"
+      intro: "Liên hệ với trang hướng dẫn Ruby on Rails về sample app tại"
+      contact_page: "trang liên hệ"
+  users:
+    new:
+      heading: "Đăng ký"
+      intro: "Đây sẽ là trang đăng ký cho người dùng mới."
