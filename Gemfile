@@ -16,12 +16,9 @@ gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
 
-group :development, :test do
-  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
-end
-
 group :development do
   gem "listen", "~> 3.3"
+  gem "pry", "~> 0.14.0"
   gem "rack-mini-profiler", "~> 2.0"
   gem "spring"
   gem "web-console", ">= 4.1.0"

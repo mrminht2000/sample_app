@@ -1,6 +1,8 @@
 en:
 
   base_title: "Ruby on Rails Tutorial Sample App"
+  welcome_title: "Welcome to the Sample App!"
+  not_found: "User not found!"
   layouts:
     header:
       en: "English"
@@ -13,6 +15,10 @@ en:
       redirect:
         home_page: "Ruby on Rails Tutorial"
         rails_news: "News"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
   static_pages:
     help:
       heading: "Help"
@@ -51,4 +57,10 @@ en:
   users:
     new:
       heading: "Signup"
-      intro: "This will be a signup page for new users."
+      create: "Create my account"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        password: "Password"
+        password_confirmation: "Password confirmation"
