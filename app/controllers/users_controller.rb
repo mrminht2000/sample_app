@@ -8,6 +8,7 @@ class UsersController < ApplicationController
 
     return render :new unless @user.save
 
+    log_in @user
     flash[:success] = t "welcome_title"
     redirect_to @user
   end

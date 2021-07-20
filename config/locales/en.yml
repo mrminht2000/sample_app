@@ -3,11 +3,17 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome_title: "Welcome to the Sample App!"
   not_found: "User not found!"
+  invalid_login: "Invalid email/password combination! "
   layouts:
     header:
       en: "English"
       vi: "Vietnamese"
       login: "Log in"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       intro:
         i1: "The"
@@ -58,9 +64,18 @@ en:
     new:
       heading: "Signup"
       create: "Create my account"
+  sessions:
+    new:
+      heading: "Log in"
+      new_user?: "New user?"
+      sign_up_now!: "Sign in now!"
   activerecord:
     attributes:
       user:
         name: "Name"
         password: "Password"
         password_confirmation: "Password confirmation"
+  helpers:
+    label:
+      session:
+        password: "Password"
