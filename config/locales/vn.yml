@@ -3,11 +3,17 @@ vi:
   base_title: "Hướng dẫn Ruby on Rails Sample App"
   welcome_title: "Chào mừng tới Sample App!"
   not_found: "Không thể tìm thấy người dùng!"
+  invalid_login: " Email hoặc mật khẩu không đúng!"
   layouts:
     header:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
       login: "Đăng nhập"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       intro:
         i1: ""
@@ -58,9 +64,18 @@ vi:
     new:
       heading: "Đăng ký"
       create: "Tạo tài khoản"
+  sessions:
+    new:
+      heading: "Đăng nhập"
+      new_user?: "Thành viên mới?"
+      sign_up_now!: "Đăng ký ngay!"
   activerecord:
     attributes:
       user:
         name: "Tên người dùng"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+  helpers:
+    label:
+      session:
+        password: "Mật khẩu"
