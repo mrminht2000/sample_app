@@ -1,6 +1,8 @@
 vi:
 
   base_title: "Hướng dẫn Ruby on Rails Sample App"
+  welcome_title: "Chào mừng tới Sample App!"
+  not_found: "Không thể tìm thấy người dùng!"
   layouts:
     header:
       en: "Tiếng Anh"
@@ -13,6 +15,10 @@ vi:
       redirect:
         home_page: "Hướng dẫn Ruby on Rails"
         rails_news: "Tin tức"
+  shared:
+    error_messages:
+      intro: "Biểu mẫu chứa"
+      error: "lỗi"
   static_pages:
     help:
       heading: "Trợ giúp"
@@ -51,4 +57,10 @@ vi:
   users:
     new:
       heading: "Đăng ký"
-      intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+      create: "Tạo tài khoản"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên người dùng"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
