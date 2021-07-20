@@ -69,6 +69,7 @@ en:
       heading: "Log in"
       new_user?: "New user?"
       sign_up_now!: "Sign in now!"
+      remember: "Remember me on this computer"
   activerecord:
     attributes:
       user:
