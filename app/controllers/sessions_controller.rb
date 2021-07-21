@@ -9,6 +9,11 @@ class SessionsController < ApplicationController
       return render :new
     end
 
+    unless user.activated?
+      flash[:warning] = t "account_not_actived"
+      return redirect_to root_url
+    end
+
     login user
   end
 

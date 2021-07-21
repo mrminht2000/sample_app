@@ -1,0 +1,8 @@
+<p><%= t ".greeting" %> <%= @user.name %>,</p>
+
+<p>
+  <%= t ".welcome" %>
+  <%= t ".click" %>
+</p>
+
+<%= edit_account_activation_url id: @user.activation_token, email: @user.email %>

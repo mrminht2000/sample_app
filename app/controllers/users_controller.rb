@@ -13,9 +13,9 @@ class UsersController < ApplicationController
 
     return render :new unless @user.save
 
-    log_in @user
-    flash[:success] = t "welcome_title"
-    redirect_to @user
+    @user.send_mail_activate
+    flash[:info] = t "check_mail"
+    redirect_to root_url
   end
 
   def new
