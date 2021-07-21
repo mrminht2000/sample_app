@@ -19,3 +19,9 @@ email:
 password:
   length:
     min: 6
+avatar:
+  size:
+    default: 80
+    index: 50
+page:
+  index: 10

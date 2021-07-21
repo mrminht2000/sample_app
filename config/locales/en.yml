@@ -3,7 +3,11 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome_title: "Welcome to the Sample App!"
   not_found: "User not found!"
-  invalid_login: "Invalid email/password combination! "
+  invalid_login: "Invalid email/password combination!"
+  profile_updated: "Profile updated"
+  please_login: "Please log in."
+  user_deleted: "User deleted"
+  delete_fail: "Failed to delete user"
   layouts:
     header:
       en: "English"
@@ -63,7 +67,17 @@ en:
   users:
     new:
       heading: "Signup"
-      create: "Create my account"
+    edit:
+      title: "Edit user"
+      heading: "Update your profile"
+      change: "change"
+    index:
+      heading: "All users"
+    user:
+      delete: "Delete"
+      sure: "You sure?"
+    form_user:
+      confirm: "Confirm"
   sessions:
     new:
       heading: "Log in"
@@ -80,3 +94,10 @@ en:
     label:
       session:
         password: "Password"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
