@@ -69,6 +69,7 @@ vi:
       heading: "Đăng nhập"
       new_user?: "Thành viên mới?"
       sign_up_now!: "Đăng ký ngay!"
+      remember: "Ghi nhớ đăng nhập trên máy tính này"
   activerecord:
     attributes:
       user:
