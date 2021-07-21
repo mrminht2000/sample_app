@@ -25,3 +25,5 @@ avatar:
     index: 50
 page:
   index: 10
+time:
+  password_expire: 2

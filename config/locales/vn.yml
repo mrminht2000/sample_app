@@ -12,6 +12,14 @@ vi:
   account_activated: "Tài khoản kích hoạt thành công!"
   invalid_activation_link: "Link kích hoạt không hợp lệ "
   account_not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để nhận link kích hoạt."
+  password_reset:
+    sent: "Đã gửi hướng dẫn reset mật khẩu tới email của bạn"
+    not_found: "Địa chỉ email không tồn tại trên hệ thống"
+    subject: "Đặt lại mật khẩu"
+    expired: "Link đã hết hạn"
+    cant_empty: "không được bỏ trống"
+    success: "Mật khẩu đã được đặt lại."
+    fail: "Đặt lại mật khẩu thất bại"
   layouts:
     header:
       en: "Tiếng Anh"
@@ -88,12 +96,27 @@ vi:
       welcome: "Chào mừng bạn tới Sample App!"
       click: "Nhấp vào link phía bên dưới để kích hoạt tài khoản:"
       active: "Kích hoạt"
+    password_reset:
+      heading: "Đặt lại mật khẩu"
+      intro: "Để đặt lại mật khẩu xin vui lòng nhấn vào link phía bên dưới"
+      reset_password: "Đặt lại mật khẩu"
+      expire: "Đường link này sẽ hết hạn sau 2 giờ."
+      ignore: "Nếu bạn không phải là người yêu cầu đặt lại mật khẩu,
+      xin vui lòng bỏ qua email này."
   sessions:
     new:
       heading: "Đăng nhập"
       new_user?: "Thành viên mới?"
       sign_up_now!: "Đăng ký ngay!"
       remember: "Ghi nhớ đăng nhập trên máy tính này"
+      forgot_password: "Quên mật khẩu"
+  password_resets:
+    new:
+      heading: "Quên mật khẩu"
+      submit: "Xác nhận"
+    edit:
+      heading: "Đặt lại mật khẩu"
+      update: "Cập nhật mật khẩu"
   activerecord:
     attributes:
       user:
