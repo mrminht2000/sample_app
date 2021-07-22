@@ -10,7 +10,7 @@ link:
   michael_hartl: "https://www.michaelhartl.com/"
 name:
   length:
-    max: 20
+    max: 30
 email:
   length:
     max: 255
