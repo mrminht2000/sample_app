@@ -4,6 +4,10 @@ vi:
   welcome_title: "Chào mừng tới Sample App!"
   not_found: "Không thể tìm thấy người dùng!"
   invalid_login: " Email hoặc mật khẩu không đúng!"
+  profile_updated: "Hồ sơ đã được cập nhật"
+  please_login: "Bạn chưa đăng nhập."
+  user_deleted: "Người dùng đã bị xóa"
+  delete_fail: "Xóa người dùng thất bại"
   layouts:
     header:
       en: "Tiếng Anh"
@@ -63,7 +67,17 @@ vi:
   users:
     new:
       heading: "Đăng ký"
-      create: "Tạo tài khoản"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      heading: "Cập nhật hồ sơ của bạn"
+      change: "thay đổi"
+    index:
+      heading: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      sure: "Bạn chắc chắn chứ?"
+    form_user:
+      confirm: "Xác nhận"
   sessions:
     new:
       heading: "Đăng nhập"
@@ -80,3 +94,10 @@ vi:
     label:
       session:
         password: "Mật khẩu"
+  views:
+    pagination:
+      first: "« ĐẦU"
+      last: "CUỐI »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
+      truncate: "…"

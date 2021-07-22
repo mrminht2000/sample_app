@@ -9,12 +9,17 @@ class SessionsController < ApplicationController
       return render :new
     end
 
-    log_in user
-    redirect_to user
+    login user
   end
 
   def destroy
     log_out
     redirect_to root_url
+  end
+
+  def login user
+    log_in user
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    redirect_back_or user
   end
 end
