@@ -24,7 +24,10 @@ class UsersController < ApplicationController
 
   def edit; end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.all.page(params[:page])
+                       .per Settings.page.microposts
+  end
 
   def update
     return render :edit unless @user.update user_params

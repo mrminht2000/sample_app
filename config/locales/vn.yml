@@ -20,6 +20,11 @@ vi:
     cant_empty: "không được bỏ trống"
     success: "Mật khẩu đã được đặt lại."
     fail: "Đặt lại mật khẩu thất bại"
+  micropost:
+    created: "Bài đăng đã được tạo!"
+    fail: "Tạo bài đăng thất bại!"
+    deleted: "Bài đăng đã được xóa"
+    del_fail: "Xóa bài đăng thất bại"
   layouts:
     header:
       en: "Tiếng Anh"
@@ -41,6 +46,13 @@ vi:
     error_messages:
       intro: "Biểu mẫu chứa"
       error: "lỗi"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micropost: "bài đăng"
+    micropost_form:
+      compose: "Tạo bài đăng mới..."
+      post: "Đăng"
+      large_size_image: "Dung lượng tối đa là 5MB. Hãy chọn file nhẹ hơn."
   static_pages:
     help:
       heading: "Trợ giúp"
@@ -58,6 +70,7 @@ vi:
       intro_last: "sample app"
       link: "Ruby on Rails Tutorial"
       signup: "Đăng ký!"
+      micropost_feed: "Bài đăng mới nhất"
     about:
       heading: "Về chúng tôi"
       redirect:
@@ -90,6 +103,8 @@ vi:
       sure: "Bạn chắc chắn chứ?"
     form_user:
       confirm: "Xác nhận"
+    show:
+      microposts: "Bài đăng"
   user_mailer:
     account_activation:
       greeting: "Xin chào"
@@ -117,12 +132,27 @@ vi:
     edit:
       heading: "Đặt lại mật khẩu"
       update: "Cập nhật mật khẩu"
+  microposts:
+    micropost:
+      post: "Được đăng"
+      ago: "trước."
+      sure: "Bạn chắc chứ?"
+      delete: "Xóa"
   activerecord:
     attributes:
       user:
         name: "Tên người dùng"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+      micropost:
+        content: "Nội dung"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "phải đúng định dạng hình ảnh"
+              large_size: phải nhỏ hơn 5MB
   helpers:
     label:
       session:
