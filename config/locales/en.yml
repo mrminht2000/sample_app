@@ -12,6 +12,19 @@ en:
   account_activated: "Account activated!"
   invalid_activation_link: "Invalid activation link"
   account_not_actived: "Account not activated. Check your email for the activation link."
+  password_reset:
+    sent: "Email sent with password reset instructions"
+    not_found: "Email address not found"
+    subject: "Password reset"
+    expired: "Password reset has expired."
+    cant_empty: "can't be empty"
+    success: "Password has been reset."
+    fail: "Failed to reset password."
+  micropost:
+    created: "Micropost created!"
+    fail: "Failed to create micropost!"
+    deleted: "Micropost deleted"
+    del_fail: "Failed to delete micropost"
   layouts:
     header:
       en: "English"
@@ -33,6 +46,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+      large_size_image: "Maximum size is 5MB. Please choose a smaller file."
   static_pages:
     help:
       heading: "Help"
@@ -50,6 +70,7 @@ en:
       intro_last: "sample application"
       link: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     about:
       heading: "About"
       redirect:
@@ -82,24 +103,56 @@ en:
       sure: "You sure?"
     form_user:
       confirm: "Confirm"
+    show:
+      microposts: "Microposts"
   user_mailer:
     account_activation:
       greeting: "Hi"
       welcome: "Welcome to the Sample App!"
       click: "Click on the link below to activate your account:"
       active: "Active"
+    password_reset:
+      heading: "Password reset"
+      intro: "To reset your password click the link below:"
+      reset_password: "Reset password"
+      expire: "This link will expire in two hours."
+      ignore: "If you did not request your password to be reset,
+      please ignore this email and your password will stay"
   sessions:
     new:
       heading: "Log in"
       new_user?: "New user?"
       sign_up_now!: "Sign in now!"
       remember: "Remember me on this computer"
+      forgot_password: "Forgot password"
+  password_resets:
+    new:
+      heading: "Forgot password"
+      submit: "Submit"
+    edit:
+      heading: "Password reset"
+      update: "Update password"
+  microposts:
+    micropost:
+      post: "Post"
+      ago: "ago."
+      sure: "You sure?"
+      delete: "Delete"
   activerecord:
     attributes:
       user:
         name: "Name"
         password: "Password"
         password_confirmation: "Password confirmation"
+      micropost:
+        content: "Content"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              large_size: "should be less than 5MB"
   helpers:
     label:
       session:
