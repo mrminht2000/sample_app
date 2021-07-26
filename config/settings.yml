@@ -23,7 +23,19 @@ avatar:
   size:
     default: 80
     index: 50
+    microposts: 50
+    user_info: 50
 page:
   index: 10
+  microposts: 10
+  feed: 10
 time:
   password_expire: 2
+microposts:
+  length:
+    max: 140
+image:
+  type: ["image/jpeg", "image/gif", "image/png"]
+  type2: "image/jpeg,image/gif,image/png"
+  max_size: 5
+  resize: [500,500]

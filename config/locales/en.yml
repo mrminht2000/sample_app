@@ -20,6 +20,11 @@ en:
     cant_empty: "can't be empty"
     success: "Password has been reset."
     fail: "Failed to reset password."
+  micropost:
+    created: "Micropost created!"
+    fail: "Failed to create micropost!"
+    deleted: "Micropost deleted"
+    del_fail: "Failed to delete micropost"
   layouts:
     header:
       en: "English"
@@ -41,6 +46,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+      large_size_image: "Maximum size is 5MB. Please choose a smaller file."
   static_pages:
     help:
       heading: "Help"
@@ -58,6 +70,7 @@ en:
       intro_last: "sample application"
       link: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     about:
       heading: "About"
       redirect:
@@ -90,6 +103,8 @@ en:
       sure: "You sure?"
     form_user:
       confirm: "Confirm"
+    show:
+      microposts: "Microposts"
   user_mailer:
     account_activation:
       greeting: "Hi"
@@ -117,12 +132,27 @@ en:
     edit:
       heading: "Password reset"
       update: "Update password"
+  microposts:
+    micropost:
+      post: "Post"
+      ago: "ago."
+      sure: "You sure?"
+      delete: "Delete"
   activerecord:
     attributes:
       user:
         name: "Name"
         password: "Password"
         password_confirmation: "Password confirmation"
+      micropost:
+        content: "Content"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              large_size: "should be less than 5MB"
   helpers:
     label:
       session:
