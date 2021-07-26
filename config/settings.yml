@@ -25,10 +25,13 @@ avatar:
     index: 50
     microposts: 50
     user_info: 50
+    follow: 30
 page:
   index: 10
   microposts: 10
   feed: 10
+  following: 10
+  followers: 10
 time:
   password_expire: 2
 microposts:
