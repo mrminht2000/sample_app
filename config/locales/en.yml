@@ -25,6 +25,11 @@ en:
     fail: "Failed to create micropost!"
     deleted: "Micropost deleted"
     del_fail: "Failed to delete micropost"
+  follow:
+    following: "Following"
+    followers: "Followers"
+    follow: "Followed successfully"
+    unfollow: "Unfollowed successfully"
   layouts:
     header:
       en: "English"
@@ -53,6 +58,9 @@ en:
       compose: "Compose new micropost..."
       post: "Post"
       large_size_image: "Maximum size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      followers: "followers"
   static_pages:
     help:
       heading: "Help"
@@ -105,6 +113,12 @@ en:
       confirm: "Confirm"
     show:
       microposts: "Microposts"
+    show_follow:
+      view: "View my profile"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   user_mailer:
     account_activation:
       greeting: "Hi"

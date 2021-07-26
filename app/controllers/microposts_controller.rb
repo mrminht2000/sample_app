@@ -31,14 +31,6 @@ class MicropostsController < ApplicationController
     params.require(:micropost).permit Micropost::MICRO_PARAMS
   end
 
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_login"
-    redirect_to login_url
-  end
-
   def correct_user
     @micropost = current_user.microposts.find_by id: params[:id]
     return unless @micropost.nil?

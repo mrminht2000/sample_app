@@ -52,14 +52,6 @@ class UsersController < ApplicationController
                                  :password, :password_confirmation
   end
 
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_login"
-    redirect_to login_url
-  end
-
   def correct_user
     redirect_to root_url unless current_user? @user
   end
@@ -68,11 +60,4 @@ class UsersController < ApplicationController
     redirect_to root_url unless current_user.admin?
   end
 
-  def find_user_id
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "not_found"
-    redirect_to root_path
-  end
 end

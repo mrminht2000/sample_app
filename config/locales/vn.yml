@@ -25,6 +25,11 @@ vi:
     fail: "Tạo bài đăng thất bại!"
     deleted: "Bài đăng đã được xóa"
     del_fail: "Xóa bài đăng thất bại"
+  follow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    follow: "Đã theo dõi thành công"
+    unfollow: "Đã bỏ theo dõi thành công"
   layouts:
     header:
       en: "Tiếng Anh"
@@ -53,6 +58,9 @@ vi:
       compose: "Tạo bài đăng mới..."
       post: "Đăng"
       large_size_image: "Dung lượng tối đa là 5MB. Hãy chọn file nhẹ hơn."
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   static_pages:
     help:
       heading: "Trợ giúp"
@@ -105,6 +113,12 @@ vi:
       confirm: "Xác nhận"
     show:
       microposts: "Bài đăng"
+    show_follow:
+      view: "Xem trang cá nhân của tôi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
   user_mailer:
     account_activation:
       greeting: "Xin chào"

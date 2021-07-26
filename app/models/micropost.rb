@@ -16,6 +16,7 @@ class Micropost < ApplicationRecord
                            message: :large_size}
 
   scope :order_post, ->{order created_at: :desc}
+  scope :user_post, -> (ids) { where user_id: ids }
 
   def display_image
     image.variant resize_to_limit: Settings.image.resize
