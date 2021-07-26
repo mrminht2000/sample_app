@@ -12,7 +12,8 @@ Rails.application.routes.draw do
 
     resources :users do
       member do
-        get :following, :followers
+        get "/following", to: "following#index", as: "following"
+        get "/followers", to: "followers#index", as: "followers"
       end
     end
     resources :account_activations, only: :edit

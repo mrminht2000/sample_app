@@ -5,6 +5,6 @@ class FollowingController < ApplicationController
     @title = t "follow.following"
     @users = @user.following.page(params[:page])
                   .per Settings.page.following
-    render :show_follow
+    render "users/show_follow"
   end
 end

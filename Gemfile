@@ -44,4 +44,8 @@ group :development, :test do
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
 
+group :production do
+  gem "pg", "1.1.4"
+end
+
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
